@@ -1,0 +1,14 @@
+Package: readFlux
+Title: Read data from Eddy Covariance and retrieve Soil data from soilgrids
+Version: 1.0.0
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Relevant pieces from splashTools package to run Silwood's class exercise on Plant-Atmosphere interaction 2020
+Depends: R (>= 3.6.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Author: David Sandoval <dsandovalhdh@gmail.com> [aut, cre]
+Maintainer: 'David Sandoval' <dsandovalhdh@gmail.com>
+Imports: xts, httr
+ByteCompile: TRUE
+RoxygenNote: 7.1.1
