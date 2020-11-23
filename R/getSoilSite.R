@@ -3,7 +3,7 @@
 #' Get soil data from soilgrids REST API, point data is from the 250m resolution dataset, calculates the weigthed mean according layer depths
 #' @param   lat, lon
 #' @param  global_depth (optional), global raster of depth to the R horizon, unfortunately not available anymore in the new update of soilgrids, so, download it separately from https://files.isric.org/soilgrids/former/2017-03-10/data/BDRICM_M_250m_ll.tif
-#' @return a numeric vector with percentages of sand (w/w), clay(w/w), SOM(w/w), gravel(v/v); bulk density (g/cm3) and depth (m)
+#' @return a numeric vector with percentages of: sand (w/w), clay(w/w), SOM(w/w), gravel(v/v); bulk density (g/cm3) and depth (m)
 #' @import httr 
 #' @keywords soil texture
 #' @export
